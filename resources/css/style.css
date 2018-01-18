@@ -1,3 +1,5 @@
+
+/* Basic Setup */
 *{
     margin: 0;
     padding: 0;
@@ -13,25 +15,14 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+/* Reusable Components */
+
 .row{
     max-width: 1140px;
     margin: 0 auto;
 }
 
-header{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-
-.hero-text-box{
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
+/* Heading */
 
 h1{
     margin: 0;
@@ -44,6 +35,8 @@ h1{
     word-spacing: 4px;
     /* line-break:  */
 }
+
+/* Buttons */
 
 .btn:link,
 .btn:visited{
@@ -78,4 +71,21 @@ h1{
 .btn-ghost:hover,
 .btn-ghost:active{
     color: #fff;
+}
+
+/*  */
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
