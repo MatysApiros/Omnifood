@@ -33,7 +33,6 @@ h1{
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 4px;
-    /* line-break:  */
 }
 
 /* Buttons */
@@ -73,7 +72,7 @@ h1{
     color: #fff;
 }
 
-/*  */
+/* Header */
 
 header{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/hero.jpg);
@@ -88,4 +87,36 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 55px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
 }
