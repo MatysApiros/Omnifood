@@ -1,0 +1,19 @@
+/* Big Tablets to 1200px */
+@media(max-width: 1200px){
+
+}
+
+/* Small Tablets to Big Tablets */
+@media(max-width: 1023px){
+
+}
+
+/* Small phones to Small Tablets */
+@media(max-width: 767px){
+
+}
+
+/* Small phones */
+@media(max-width: 480px){
+
+}
