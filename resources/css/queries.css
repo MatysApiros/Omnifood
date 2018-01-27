@@ -1,11 +1,23 @@
 /* Big Tablets to 1200px */
 @media(max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
 
+    .row {padding: 0 2%;}
 }
 
 /* Small Tablets to Big Tablets */
 @media(max-width: 1023px){
+    body {font-size: 18px;}
 
+    section { padding: 60px 0; }
+
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
 }
 
 /* Small phones to Small Tablets */
