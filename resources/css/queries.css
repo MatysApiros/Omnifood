@@ -92,5 +92,7 @@
 
 /* Small phones */
 @media(max-width: 480px){
+    section { padding: 25px 0; }
 
+    .contact-form { width: 100%; }
 }
