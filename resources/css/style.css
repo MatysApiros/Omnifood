@@ -185,13 +185,17 @@ header {
     transform: translate(-50%,-50%);
 }
 
-.logo {
+.logo,
+.logo-black {
     height: 100px;
     width: auto;
     float: left;
     margin-top: 20px;
 }
 
+.logo-black { display: none; }
+
+/* Main Nav */
 .main-nav {
     float: right;
     margin-top: 55px;
@@ -215,6 +219,27 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active { border-bottom: 2px solid #e67e22; }
+
+/* Sricky Nav */
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98)
+}
+
+.main-nav { margin-top: 15px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
+}
+
+.sticky .logo { display: none; }
+
+.sticky .logo-black { display: block; }
 
 /* Features */
 .section-features .long-copy { margin-bottom: 30px; }
